@@ -8,7 +8,7 @@ Lane detection is a very vast area to work on, since a lot of efforts are being 
 + https://www.ijert.org/lane-line-detection-for-vehicles
 
 # _**Project Approach**_
-Specifically any algorithm was not used in this particular project, most of the lane detection was done using different types of filters such as Sobel, perspective tranformation, lane point detection. All these are integrated into one fucntion that is detect edges which will detect the edges by applying all the above filters. Then we have to fit the above method into a polynomial and also we have to calculate the curvature of the lane since some lane might be curved and some wont, so because of that we need to calcualte the curvature of the lane. Finally we have to process and render the image.
+Specifically, any algorithm was not used in this particular project, most of the lane detection was done using different types of filters such as Sobel, perspective transformation, lane point detection. All these are integrated into one function that is detect edges which will detect the edges by applying all the above filters. Then we have to fit the above method into a polynomial and also, we have to calculate the curvature of the lane since some lane might be curved and some wont, so because of that we need to calculate the curvature of the lane. Finally, we have to process and render the image.
 
 # _How to Execute?_
 So, before execution we have some pre-requisites that we need to download or install i.e., anaconda environment, python and a code editor.
