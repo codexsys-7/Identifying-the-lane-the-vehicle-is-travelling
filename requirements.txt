@@ -1,0 +1,7 @@
+numpy == 1.20.3
+opencv-python
+pickle
+glob
+moviepy == 1.0.3
+matplotlib == 3.4.3
+IPython == 7.29.0
