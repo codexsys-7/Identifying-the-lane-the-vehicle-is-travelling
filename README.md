@@ -93,6 +93,10 @@ This particular project dosent require any specific kind of dataset, we have use
 4. Refer to the Below link to get more details on installing python and anaconda and how to configure it.
 + https://techieyantechnologies.com/2022/06/get-started-with-creating-new-environment-in-anaconda-configuring-jupyter-notebook-and-installing-libraries-using-requirements-txt-2/
 5. Make sure to change the paths of the images used in the code.
+6. regarding Car, It was unable to correctly predict the lane curve at some point.
+7. Try changing some parameters to best fit the lane curves.
+8. You can use other Edge detection techniques instead of Sobel operator.
+9. curve fitting code cell is little complicated to understand.
 
 # _Note:_
 **All the required data has been provided over here. Please feel free to contact me for any issues.**
