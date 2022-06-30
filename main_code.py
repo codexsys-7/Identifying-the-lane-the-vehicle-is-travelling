@@ -1,12 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Advanced Lane Finding
-# 
-# ## Import Modules
-
-# In[3]:
-
 
 import numpy as np
 import cv2
@@ -623,42 +614,4 @@ o = cv2.cvtColor(test_output, cv2.COLOR_RGB2BGR)
 cv2.imwrite('output_images/test3.jpg', cv2.cvtColor(test_output, cv2.COLOR_RGB2BGR))
 
 
-# In[72]:
-
-
-challenge_output_file = "challenge_output.mp4"
-challenge_video = VideoFileClip("challenge_video.mp4")
-
-challenge_output = challenge_video.fl_image(process_image)
-get_ipython().run_line_magic('time', 'challenge_output.write_videofile(challenge_output_file, audio=False)')
-
-
-# In[73]:
-
-
-HTML("""
-<video width="960" height="540" controls>
-  <source src="{0}">
-</video>
-""".format(challenge_output_file))
-
-
-# In[74]:
-
-
-harder_challenge_output_file = "harder_challenge_output.mp4"
-harder_challenge_video = VideoFileClip("harder_challenge_video.mp4")
-
-harder_challenge_output = harder_challenge_video.fl_image(process_image)
-get_ipython().run_line_magic('time', 'harder_challenge_output.write_videofile(harder_challenge_output_file, audio=False)')
-
-
-# In[75]:
-
-
-HTML("""
-<video width="960" height="540" controls>
-  <source src="{0}">
-</video>
-""".format(harder_challenge_output_file))
 
